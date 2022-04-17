@@ -1,0 +1,520 @@
+**NOTE: My comments will always start with ** so you can differentiate the console output and my comments.
+
+** This output will show the interleving of requests and how the jokes/proverbs first start out in order
+** but after the first cycle is complete (When "JOKE MODE COMPLETED" or "PROVERB MODE COMPLETED" is displayed)
+** then the jokes/proverbs will be output in a random order. 
+** Note that (J/A)W-X-Y-Z labels will always be in order because I added some additional functionality, so this can be
+** ignored, the (J/A)W-X-Y-Z labels will show the randomness of the jokes/proverbs, they will just appear before 
+** the jokes/proverbs output, not before the users name. 
+
+**JOKE CLIENT ADMIN OUTPUT
+/bryan / JokeServerTesting / 09:02 / Java JokeClientAdmin
+Bryan Morandi's Joke Client Admin.
+
+Using server: localHost, Port: 5050
+Now communicating with: localHost, port 5050
+
+Press Enter to switch the current mode, click 's' to switch server, or type (quit) to end:
+Joke Server is now in Proverb mode.
+Press Enter to switch the current mode, click 's' to switch server, or type (quit) to end:
+
+
+**JOKE SERVER OUTPUT
+/bryan / JokeServerTesting / 09:02 / java JokeServer
+Bryan Morandi's Joke Server starting up, listening at port 4545.
+
+Proverb Mode
+
+
+** JOKE CLIENT 1 OUTPUT "Carmen"
+/bryan / JokeServerTesting / 09:02 / Java JokeClient
+Bryan Morandi's Joke Client.
+
+Note to grader: I added some functionality to the joke/proverb labels, the initial label will be W through X and will always be in order even after shuffling. I still have included the required A through D labels and they will be randomized with the jokes, but I placed them after the username prepending the joke. I wanted to add additional complexity to show that the jokes can be randomized while still keeping the label order consistent.
+
+Using server: localHost, Port: 4545
+Now communicating with: localHost, port 4545
+
+Please enter your name: Carmen
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JW Carmen: JA What kitchen tool does a panda cook with? -- A pan, duh...
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JX Carmen: JB Did you hear about the Italian chef who died? -- He pasta-way
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JY Carmen: JC Where do sheep go to get their haircut? -- The baa baa shop
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JZ Carmen: JD What do you call birds who stick together? -- Vel-crows
+
+JOKE CYCLE COMPLETED
+** for the first cycle the jokes are displayed in order JA-JB-JC-JD
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JW Carmen: JA What kitchen tool does a panda cook with? -- A pan, duh...
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JX Carmen: JB Did you hear about the Italian chef who died? -- He pasta-way
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JY Carmen: JD What do you call birds who stick together? -- Vel-crows
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JZ Carmen: JC Where do sheep go to get their haircut? -- The baa baa shop
+
+JOKE CYCLE COMPLETED
+** After first cycle the jokes are randomized but not repeated JA-JB-JD-JC
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PW Carmen: PA Most young kings get their heads cut off
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PX Carmen: PB Don't try to teach your Grandma to suck eggs
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PY Carmen: PC A person who sups with the devil should have a long spoon
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PZ Carmen: PD Mighty oaks from little acorns grow
+
+PROVERB CYCLE COMPLETED
+**for the first proverv cycle the proverbs are displayed in order PA-PB-PC-PD
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PW Carmen: PD Mighty oaks from little acorns grow
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PX Carmen: PB Don't try to teach your Grandma to suck eggs
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PY Carmen: PC A person who sups with the devil should have a long spoon
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PZ Carmen: PA Most young kings get their heads cut off
+
+PROVERB CYCLE COMPLETED
+** after the first proverb cycle the proverbs are randomized but not repeated PD-PB-PC-PA
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+
+
+** JOKE CLIENT 2 OUTPUT "Clifford"
+/bryan / JokeServerTesting / 09:02 / Java JokeClient
+Bryan Morandi's Joke Client.
+
+Note to grader: I added some functionality to the joke/proverb labels, the initial label will be W through X and will always be in order even after shuffling. I still have included the required A through D labels and they will be randomized with the jokes, but I placed them after the username prepending the joke. I wanted to add additional complexity to show that the jokes can be randomized while still keeping the label order consistent.
+
+Using server: localHost, Port: 4545
+Now communicating with: localHost, port 4545
+
+Please enter your name: Clifford
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JW Clifford: JA What kitchen tool does a panda cook with? -- A pan, duh...
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JX Clifford: JB Did you hear about the Italian chef who died? -- He pasta-way
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JY Clifford: JC Where do sheep go to get their haircut? -- The baa baa shop
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JZ Clifford: JD What do you call birds who stick together? -- Vel-crows
+
+JOKE CYCLE COMPLETED
+** for the first cycle the jokes are displayed in order JA-JB-JC-JD
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JW Clifford: JC Where do sheep go to get their haircut? -- The baa baa shop
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JX Clifford: JA What kitchen tool does a panda cook with? -- A pan, duh...
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JY Clifford: JB Did you hear about the Italian chef who died? -- He pasta-way
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JZ Clifford: JD What do you call birds who stick together? -- Vel-crows
+
+JOKE CYCLE COMPLETED
+** after the first cycle the jokes are randomized but not repeated JC-JA-JB-JD
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PW Clifford: PA Most young kings get their heads cut off
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PX Clifford: PB Don't try to teach your Grandma to suck eggs
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PY Clifford: PC A person who sups with the devil should have a long spoon
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PZ Clifford: PD Mighty oaks from little acorns grow
+
+PROVERB CYCLE COMPLETED
+**for the first proverb cycle the proverbs are displayed in order PA-PB-PC-PD
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PW Clifford: PD Mighty oaks from little acorns grow
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PX Clifford: PB Don't try to teach your Grandma to suck eggs
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PY Clifford: PC A person who sups with the devil should have a long spoon
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PZ Clifford: PA Most young kings get their heads cut off
+
+PROVERB CYCLE COMPLETED
+** after the first proverb cycle the proverbs are randomized but not repeated PD-PB-PC-PA
+** note: while the jokes are randomized, it is a coincidence that the randomization from the "Carmen client"
+** and "Clifford client" are the same for the second proverb cycle. The joke randomness for the second
+** cycle is different between the two clients, so it is not following any pattern. 
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+
+
+
+** This output will show the interleaving of Joke Mode and Proverb Mode with the JokeClientAdmin. 
+
+**JOKE CLIENT ADMIN OUTPUT
+/bryan / JokeServerTesting / 07:29 / Java JokeClientAdmin
+Bryan Morandi's Joke Client Admin.
+
+Using server: localHost, Port: 5050
+Now communicating with: localHost, port 5050
+
+Press Enter to switch the current mode, click 's' to switch server, or type (quit) to end:
+Joke Server is now in Proverb mode.
+
+Press Enter to switch the current mode, click 's' to switch server, or type (quit) to end:
+Joke Server is now in Joke mode.
+
+Press Enter to switch the current mode, click 's' to switch server, or type (quit) to end:
+Joke Server is now in Proverb mode.
+
+Press Enter to switch the current mode, click 's' to switch server, or type (quit) to end:
+Joke Server is now in Joke mode.
+
+Press Enter to switch the current mode, click 's' to switch server, or type (quit) to end:
+Joke Server is now in Proverb mode.
+
+Press Enter to switch the current mode, click 's' to switch server, or type (quit) to end:
+Joke Server is now in Joke mode.
+
+Press Enter to switch the current mode, click 's' to switch server, or type (quit) to end:
+
+
+**JOKE SERVER OUTPUT
+/bryan / JokeServerTesting / 07:29 / java JokeServer
+Bryan Morandi's Joke Server starting up, listening at port 4545.
+
+Proverb Mode
+Joke Mode
+Proverb Mode
+Joke Mode
+Proverb Mode
+Joke Mode
+
+
+** JOKE CLIENT 1 OUTPUT "Carmen"
+/bryan / JokeServerTesting / 07:31 / Java JokeClient
+Bryan Morandi's Joke Client.
+
+Note to grader: I added some functionality to the joke/proverb labels, the initial label will be W through X and will always be in order even after shuffling. I still have included the required A through D labels and they will be randomized with the jokes, but I placed them after the username prepending the joke. I wanted to add additional complexity to show that the jokes can be randomized while still keeping the label order consistent.
+
+Using server: localHost, Port: 4545
+Now communicating with: localHost, port 4545
+
+Please enter your name: Carmen
+
+**Initally in Joke Mode
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JW Carmen: JA What kitchen tool does a panda cook with? -- A pan, duh...
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JX Carmen: JB Did you hear about the Italian chef who died? -- He pasta-way
+
+**Switch to Proverb Mode
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PW Carmen: PA Most young kings get their heads cut off
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PX Carmen: PB Don't try to teach your Grandma to suck eggs
+
+**Switch to Joke Mode
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JY Carmen: JC Where do sheep go to get their haircut? -- The baa baa shop
+
+**Switch to Proverb Mode
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PY Carmen: PC A person who sups with the devil should have a long spoon
+
+**Switch to Joke Mode
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JZ Carmen: JD What do you call birds who stick together? -- Vel-crows
+
+JOKE CYCLE COMPLETED
+
+**Switch to Proverb Mode
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PZ Carmen: PD Mighty oaks from little acorns grow
+
+PROVERB CYCLE COMPLETED
+
+** After the first Cycle Jokes are still in order and state is maintained JA - JB - PA - PB - JC - PC - JD - PD
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PW Carmen: PC A person who sups with the devil should have a long spoon
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PX Carmen: PD Mighty oaks from little acorns grow
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PY Carmen: PB Don't try to teach your Grandma to suck eggs
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PZ Carmen: PA Most young kings get their heads cut off
+
+PROVERB CYCLE COMPLETED
+
+**Switch to Joke Mode
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JW Carmen: JC Where do sheep go to get their haircut? -- The baa baa shop
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JX Carmen: JD What do you call birds who stick together? -- Vel-crows
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JY Carmen: JB Did you hear about the Italian chef who died? -- He pasta-way
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JZ Carmen: JA What kitchen tool does a panda cook with? -- A pan, duh...
+
+JOKE CYCLE COMPLETED
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+
+** After the second Cycle Jokes randomized but the random order and state is maintained PC - PD - PB - PA - JC - JD - JB - PA
+
+
+** JOKE CLIENT 2 OUTPUT "Clifford"
+/bryan / JokeServerTesting / 07:28 / Java JokeClient
+Bryan Morandi's Joke Client.
+
+Note to grader: I added some functionality to the joke/proverb labels, the initial label will be W through X and will always be in order even after shuffling. I still have included the required A through D labels and they will be randomized with the jokes, but I placed them after the username prepending the joke. I wanted to add additional complexity to show that the jokes can be randomized while still keeping the label order consistent.
+
+Using server: localHost, Port: 4545
+Now communicating with: localHost, port 4545
+
+Please enter your name: Clifford
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JW Clifford: JA What kitchen tool does a panda cook with? -- A pan, duh...
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PW Clifford: PA Most young kings get their heads cut off
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JX Clifford: JB Did you hear about the Italian chef who died? -- He pasta-way
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JY Clifford: JC Where do sheep go to get their haircut? -- The baa baa shop
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PX Clifford: PB Don't try to teach your Grandma to suck eggs
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JZ Clifford: JD What do you call birds who stick together? -- Vel-crows
+
+JOKE CYCLE COMPLETED
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JW Clifford: JD What do you call birds who stick together? -- Vel-crows
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PY Clifford: PC A person who sups with the devil should have a long spoon
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PZ Clifford: PD Mighty oaks from little acorns grow
+
+PROVERB CYCLE COMPLETED
+
+** After the first Cycle Jokes are still in order and state is maintained JA - PA - JB - JC - PB - JD - JD (note this is the start of the randomized joke cycle) - PC - PD
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PW Clifford: PA Most young kings get their heads cut off
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PX Clifford: PB Don't try to teach your Grandma to suck eggs
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PY Clifford: PD Mighty oaks from little acorns grow
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PZ Clifford: PC A person who sups with the devil should have a long spoon
+
+PROVERB CYCLE COMPLETED
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JX Clifford: JB Did you hear about the Italian chef who died? -- He pasta-way
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JY Clifford: JA What kitchen tool does a panda cook with? -- A pan, duh...
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JZ Clifford: JC Where do sheep go to get their haircut? -- The baa baa shop
+
+JOKE CYCLE COMPLETED
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+
+** After the second Cycle Jokes randomized but the random order and state is maintained JD (starting from the JD noted above) - PA - PB - PD - PC - JB - JA - JC
+
+
+
+** This section of output will show the proper execution of the multiple server code for both the JokeServer and JokeClientAdmin
+
+**JOKE CLIENT ADMIN OUTPUT (multiple servers)
+/bryan / JokeServerTesting / 09:19 / java JokeClientAdmin localhost localhost
+Bryan Morandi's Joke Client Admin.
+
+**Announcing both server connections
+Server one: localhost, port: 5050
+Server two: localhost, port: 5051
+**Still wanted it to be clear to the user what initial port they are listening to
+
+Now communicating with: localhost, port 5050
+**this will change the mode on port 4545 of the pimary server for the Jokeclient
+
+Press Enter to switch the current mode, click 's' to switch server, or type (quit) to end:
+Joke Server is now in Proverb mode.
+
+Press Enter to switch the current mode, click 's' to switch server, or type (quit) to end:
+Joke Server is now in Joke mode.
+
+Press Enter to switch the current mode, click 's' to switch server, or type (quit) to end: s
+Now communicating with: localhost, port 5051
+**this will change the mode on port 4546 of the secondary server for the Jokeclient
+**correctly switches ports and servers with client output
+
+
+Press Enter to switch the current mode, click 's' to switch server, or type (quit) to end:
+Joke Server is now in Proverb mode.
+
+Press Enter to switch the current mode, click 's' to switch server, or type (quit) to end:
+Joke Server is now in Joke mode.
+
+Press Enter to switch the current mode, click 's' to switch server, or type (quit) to end: s
+Now communicating with: localhost, port 5050
+**correctly switches ports and servers with client output
+
+
+Press Enter to switch the current mode, click 's' to switch server, or type (quit) to end:
+Joke Server is now in Proverb mode.
+
+Press Enter to switch the current mode, click 's' to switch server, or type (quit) to end:
+
+
+**PRIMARY JOKE SERVER
+/bryan / JokeServerTesting / 09:19 / java JokeServer
+Bryan Morandi's Joke Server starting up, listening at port 4545.
+
+Proverb Mode
+Joke Mode
+Proverb Mode
+**correctly outputs the mode changes from the JokeClientAdmin from port 5050
+
+
+**SECONDARY JOKE SERVER
+/bryan / JokeServerTesting / 09:19 / java JokeServer secondary
+This is the secondary server.
+Bryan Morandi's Joke Server starting up, listening at port 4546.
+
+Proverb Mode
+Joke Mode
+**correctly outputs the mode changes from the JokeClientAdmin from port 5051
+
+
+**JOKE CLIENT "Bryan" (multiple servers)
+/bryan / JokeServerTesting / 09:19 / java JokeClient localhost localhost
+Bryan Morandi's Joke Client.
+
+Note to grader: I added some functionality to the joke/proverb labels, the initial label will be W through X and will always be in order even after shuffling. I still have included the required A through D labels and they will be randomized with the jokes, but I placed them after the username prepending the joke. I wanted to add additional complexity to show that the jokes can be randomized while still keeping the label order consistent.
+
+Server one: localhost, port: 4545
+Server two: localhost, port: 4546
+Now communicating with: localhost, port 4545
+**Still wanted it to be clear to the user what initial port they are listening to
+
+Please enter your name: Bryan
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JW Bryan: JA What kitchen tool does a panda cook with? -- A pan, duh...
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PW Bryan: PA Most young kings get their heads cut off
+**first mode switch from JokeClientAdmin from port 5050
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PX Bryan: PB Don't try to teach your Grandma to suck eggs
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JX Bryan: JB Did you hear about the Italian chef who died? -- He pasta-way
+**second mode switch from JokeClientAdmin from port 5050
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JY Bryan: JC Where do sheep go to get their haircut? -- The baa baa shop
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end: s
+Now communicating with: localhost, port 4546
+**JokeClientAdmin switched server to port 4546 and JokeClientAdmin will be using port 5051 to log mode switches
+
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+<S2> JW Bryan: JA What kitchen tool does a panda cook with? -- A pan, duh...
+** correctly displays <S2> to denote that this is the secondary server
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+<S2> JX Bryan: JB Did you hear about the Italian chef who died? -- He pasta-way
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+<S2> PW Bryan: PA Most young kings get their heads cut off
+**first mode switch from JokeClientAdmin from port 5051
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+<S2> PX Bryan: PB Don't try to teach your Grandma to suck eggs
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+<S2> JY Bryan: JC Where do sheep go to get their haircut? -- The baa baa shop
+**second mode switch from JokeClientAdmin from port 5051
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+<S2> JZ Bryan: JD What do you call birds who stick together? -- Vel-crows
+
+JOKE CYCLE COMPLETED
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end: s
+Now communicating with: localhost, port 4545
+**changed back to the primary JokeClient server 
+
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+JZ Bryan: JD What do you call birds who stick together? -- Vel-crows
+//continues in joke mode with the correct joke after switching servers
+
+JOKE CYCLE COMPLETED
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PY Bryan: PC A person who sups with the devil should have a long spoon
+**third mode switch from JokeClientAdmin from port 5050
+
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
+PZ Bryan: PD Mighty oaks from little acorns grow
+
+PROVERB CYCLE COMPLETED
+Click Enter to get joke or proverb, click 's' to switch server, or type (quit) to end:
